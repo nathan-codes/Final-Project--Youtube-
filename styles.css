@@ -1,4 +1,5 @@
-/* CSS RESET START */
+/* Css Reset Start */
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -13,6 +14,8 @@
 */
 * {
     margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
 }
 
 /*
@@ -41,7 +44,7 @@ picture,
 video,
 canvas,
 svg {
-
+    display: inline-block;
     max-width: 100%;
 }
 
@@ -76,88 +79,28 @@ h6 {
     isolation: isolate;
 }
 
-/* CSS RESET END */
 
+/* Css Reset End */
 
-body {
-    background-color: black;
-
-
-
+#mainNav {
 
 }
 
-ul {
-    list-style: none;
-    padding: 0px;
+.main-Youtube-Logo{
+    width: 100px;
 }
 
 
-
-nav.mainNav {
-    background-color: wheat;
-    position: absolute;
-    top: 0;
-    left: 90px;
+input[type=search] {
+    padding: .5rem;
+    border-radius: 30px;
+    border-width: 1px;
     
 }
 
+.search-button{
 
-nav.sideNav {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 90px;
-    background-color: rgb(16, 10, 23);
-    overflow: hidden;
-    transition: width 0.2s linear;
-
-}
-
-
-a {
-    display: table;
-    padding: 10px;
-    text-decoration: none;
+    padding: .4rem;
     position: relative;
-    color: white;
-    width: 200px;
-
+    right: 30px;
 }
-
-a.nav-item:hover {
-    margin: 0 1rem;
-    transition: all 0.5s ease;
-    background-color: gray;
-    border-radius: 12px;
-}
-
-
-.nav-icon {
-
-    padding: 0 2.2rem;
-}
-
-
-img.nav-icon {
-    width: 50%;
-    border-radius: 100%;
-}
-
-
-nav.sideNav:hover {
-    width: 230px;
-    transition: all 0.5s ease;
-}
-
-
-hr {
-    margin: 1rem .8rem;
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-
