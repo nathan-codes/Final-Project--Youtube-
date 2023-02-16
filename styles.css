@@ -151,8 +151,8 @@ h6 {
 
 #sideNav {
     padding: 10px 1%;
-    width: 13%;
-    border: 1px solid red;
+    width: 15%;
+
     height: 100vh;
 }
 
@@ -184,8 +184,11 @@ h6 {
 }
 
 #sideNav h2{
+    padding: 0 1rem;
     font-weight: lighter;
     font-size: 1rem;
+}
 
-    
+#sideNav .sub-img {
+    border-radius: 100%;
 }
