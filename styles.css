@@ -148,12 +148,18 @@ h6 {
     background: transparent;
 }
 
+/* Main Nav Styling END */
+
+
+/* Sidebar Styling sTART  */
 
 #sideNav {
     padding: 10px 1%;
     width: 15%;
-
     height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-top: 80px;
 }
 
 #sideNav img {
@@ -164,9 +170,13 @@ h6 {
 }
 
 .sideNav-tab {
+    
     padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 
-}
+}   
 
 .sideNav-tab:hover {
     background-color: #ccc;
@@ -174,6 +184,24 @@ h6 {
     cursor: pointer;
 
 }
+
+.small-nav{
+   width: 5%!important;
+}
+
+.small-nav img {
+    margin-right: 0!important;
+}
+
+.small-nav .sideNav-tab{
+    padding: 0;
+    margin: 1rem ;
+}
+
+.small-nav span, .small-nav h2 {
+    display: none;
+}
+
 
 #sideNav hr {
     border: 0;
@@ -192,3 +220,6 @@ h6 {
 #sideNav .sub-img {
     border-radius: 100%;
 }
+ 
+
+/* Sidebar Styling  End */
